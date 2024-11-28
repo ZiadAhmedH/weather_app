@@ -1,4 +1,4 @@
-import 'package:weather_clean/weather/domain/entities/weatherModel.dart';
+import 'package:weather_clean/weather/domain/entities/weather.dart';
 
 import '../repository/weatherRepository.dart';
 

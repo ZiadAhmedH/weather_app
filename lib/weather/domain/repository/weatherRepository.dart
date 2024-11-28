@@ -1,5 +1,7 @@
-import '../entities/weatherModel.dart';
+import '../entities/weather.dart';
 
+
+// like a contract that any class that implements this interface should implement the fetchWeather method
 abstract class WeatherRepository {
   Future<Weather> fetchWeather(String cityName);
 }
