@@ -2,7 +2,7 @@ import '../entities/weather.dart';
 
 
 // like a contract that any class that implements this interface should implement the fetchWeather method
-abstract class WeatherRepository {
+abstract class BaseWeatherRepository {
   Future<Weather> fetchWeather(String cityName);
 }
 
